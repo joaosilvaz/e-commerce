@@ -390,3 +390,62 @@ label {
   border: none;
   cursor: pointer;
 }
+
+footer{
+  display: flex;
+}
+
+.footerLeft{
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.footerTitle{
+  font-size: 18px;
+}
+
+.footerList{
+  padding: 0;
+  list-style: none;
+}
+
+.fListItem{
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.footerRight{
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerDesc{
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.fMenuTitle{
+  font-size: 18px;
+}
+
+.fInput{
+  padding: 5px;
+}
+
+.fButton{
+  background-color: #000000;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.fIcon{
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
