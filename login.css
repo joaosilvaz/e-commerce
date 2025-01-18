@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212121;
+    height: 100vh;
+    background: linear-gradient(to bottom, #121212, #1f1f1f);
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+  }
+
+.container{
+    background-color: #2e2e2e;
+    color: white;
+    width: 400px;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1), 
+    0 0px 5px rgba(255, 255, 255, 0.1), 
+    inset 0 1px 4px rgba(255, 255, 255, 0.2);
+  }
+
+.image-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 20px 20px;
+}
+
+.image-login img{
+    width: 50px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20pxs;
+}
+
+.input-email{
+    width: 75%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background: #393939;
+    color: #fff;
+    font-size: 16px;   
+}
+.input-password{
+    width: 75%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    background: #393939;
+    color: #fff;
+    font-size: 16px;
+}
+
+.container-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+    gap: 15px;
+}
+
+.button-one {
+    width: 75%;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background: #2a2a2a;
+    color: #5d5d5d;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button-one a{
+    color: #5d5d5d;
+    text-decoration: none;
+}
+
+
+.button-two{
+    width: 75%;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background: #292929;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.container-desc p{
+    font-size: 15px;
+    color: #d8d8d8;
+}
+
+.container-desc span{
+    font-size: 15px;
+    color: #636363;
+}
+
+.container-desc a{
+    color: #bdbdbd;
+    text-decoration: none;
+}
+
