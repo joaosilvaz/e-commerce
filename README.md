@@ -1,7 +1,7 @@
-🛒 E-commerce Simulator
-E-commerce simulator with a responsive layout where users can view products, add them to the cart, and simulate a purchase.
+🛒 Simulador de E-commerce
+Simulador de e-commerce com layout responsivo, onde os usuários podem visualizar produtos, adicioná-los ao carrinho e simular uma compra.
 
-Technologies used:
+Tecnologias utilizadas:
 
 JavaScript
 
